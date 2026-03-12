@@ -22,6 +22,7 @@ crash.log
 *.key
 devops-key
 devops-key.pub
+.gitignore
 
 # OS files
 .DS_Store
