@@ -1,0 +1,28 @@
+# Terraform folder
+.terraform/
+
+# Terraform state files
+terraform.tfstate
+terraform.tfstate.*
+*.tfstate
+*.tfstate.backup
+
+# Terraform lock file (optional)
+.terraform.lock.hcl
+
+# Variable files (may contain secrets)
+*.tfvars
+*.tfvars.json
+
+# Crash log files
+crash.log
+
+# Sensitive key files
+*.pem
+*.key
+devops-key
+devops-key.pub
+
+# OS files
+.DS_Store
+Thumbs.db
